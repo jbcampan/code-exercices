@@ -1,0 +1,20 @@
+2024-06-01 08:12:03 INFO  auth-service User login successful for user_id=442
+2024-06-01 08:12:11 ERROR payment-service Timeout connecting to payment gateway after 30s
+2024-06-01 08:13:45 INFO  api-gateway GET /api/v1/products 200 OK in 142ms
+2024-06-01 08:14:02 WARN  auth-service Token expiring soon for user_id=117
+2024-06-01 08:14:55 ERROR auth-service Invalid token signature received from 192.168.1.45
+2024-06-01 08:15:30 INFO  worker-service Job queue processed 54 tasks in 2.3s
+2024-06-01 08:16:08 ERROR payment-service Failed to charge card: insufficient funds for order_id=8821
+2024-06-01 08:17:22 INFO  api-gateway POST /api/v1/orders 201 Created in 310ms
+2024-06-01 08:18:01 WARN  worker-service Queue depth reaching limit: 890/1000 items pending
+2024-06-01 08:18:44 ERROR api-gateway Upstream service unavailable, returning 503 to client
+2024-06-01 08:19:15 INFO  auth-service Password reset email sent to user_id=209
+2024-06-01 08:20:03 ERROR worker-service Unhandled exception in task processor: NullPointerException at line 88
+2024-06-01 08:21:30 INFO  payment-service Payment confirmed for order_id=8819 amount=149.90 EUR
+2024-06-01 08:22:17 WARN  api-gateway Rate limit threshold at 80% for client_ip=203.0.113.7
+2024-06-01 08:23:05 ERROR auth-service Database connection lost, retrying in 5s
+2024-06-01 08:24:48 INFO  worker-service Scheduled cleanup completed, removed 312 stale sessions
+2024-06-01 08:25:11 ERROR payment-service Duplicate transaction detected for order_id=8830
+2024-06-01 08:26:33 INFO  api-gateway GET /api/v1/users 200 OK in 98ms
+2024-06-01 08:27:50 WARN  auth-service 5 consecutive failed logins from ip=198.51.100.22
+2024-06-01 08:28:14 ERROR worker-service Disk space below threshold: 91% used on /var/data
