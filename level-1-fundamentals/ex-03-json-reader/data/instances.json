@@ -1,0 +1,38 @@
+{
+  "Reservations": [
+    {
+      "ReservationId": "r-0a1b2c3d4e5f67890",
+      "Instances": [
+        {
+          "InstanceId": "i-0a1b2c3d4e5f67890",
+          "InstanceType": "t3.micro",
+          "State": {
+            "Code": 16,
+            "Name": "running"
+          },
+          "PublicIpAddress": "54.210.101.22",
+          "Tags": [
+            { "Key": "Name", "Value": "web-server-01" },
+            { "Key": "Env", "Value": "prod" }
+          ]
+        }
+      ]
+    },
+    {
+      "ReservationId": "r-0b2c3d4e5f6789012",
+      "Instances": [
+        {
+          "InstanceId": "i-0b2c3d4e5f6789012",
+          "InstanceType": "t3.small",
+          "State": {
+            "Code": 80,
+            "Name": "stopped"
+          },
+          "Tags": [
+            { "Key": "Env", "Value": "staging" }
+          ]
+        }
+      ]
+    }
+  ]
+}
