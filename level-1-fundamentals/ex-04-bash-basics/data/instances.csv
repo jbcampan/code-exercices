@@ -1,0 +1,4 @@
+instance_id,type,region,state
+i-0a1b2c3d4e,t3.micro,eu-west-1,running
+i-1f2e3d4c5b,t3.small,eu-west-1,stopped
+i-2a3b4c5d6e,m5.large,us-east-1,running
