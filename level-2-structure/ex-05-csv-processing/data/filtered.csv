@@ -1,0 +1,11 @@
+instance_id,instance_type,state,region,cost_per_hour,monthly_cost
+i-0a1b2c3d4e5f6a7b8,t3.micro,running,eu-west-1,0.0116,8.35
+i-0c3d4e5f6a7b8c9d0,m5.large,running,eu-west-1,0.096,69.12
+i-0d4e5f6a7b8c9d0e1,m5.xlarge,running,us-east-1,0.192,138.24
+i-0f6a7b8c9d0e1f2a3,t3.medium,running,us-east-1,0.0464,33.41
+i-0b8c9d0e1f2a3b4c5,t3.micro,running,ap-southeast-1,0.0116,8.35
+i-0c9d0e1f2a3b4c5d6,m5.2xlarge,running,eu-central-1,0.384,276.48
+i-0d0e1f2a3b4c5d6e7,c5.large,running,us-east-1,0.085,61.2
+i-0e1f2a3b4c5d6e7f8,t3.small,running,eu-west-1,0.0232,16.7
+i-0b4c5d6e7f8a9b0c1,c5.xlarge,running,ap-southeast-1,0.17,122.4
+i-0c5d6e7f8a9b0c1d2,t3.large,running,eu-west-1,0.0928,66.82

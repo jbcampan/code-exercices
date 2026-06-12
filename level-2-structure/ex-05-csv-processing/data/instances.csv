@@ -1,0 +1,16 @@
+instance_id,instance_type,state,region,cost_per_hour
+i-0a1b2c3d4e5f6a7b8,t3.micro,running,eu-west-1,0.0116
+i-0b2c3d4e5f6a7b8c9,t3.small,stopped,us-east-1,0.0232
+i-0c3d4e5f6a7b8c9d0,m5.large,running,eu-west-1,0.096
+i-0d4e5f6a7b8c9d0e1,m5.xlarge,running,us-east-1,0.192
+i-0e5f6a7b8c9d0e1f2,c5.2xlarge,terminated,ap-southeast-1,0.34
+i-0f6a7b8c9d0e1f2a3,t3.medium,running,us-east-1,0.0464
+i-0a7b8c9d0e1f2a3b4,r5.large,stopped,eu-central-1,0.126
+i-0b8c9d0e1f2a3b4c5,t3.micro,running,ap-southeast-1,0.0116
+i-0c9d0e1f2a3b4c5d6,m5.2xlarge,running,eu-central-1,0.384
+i-0d0e1f2a3b4c5d6e7,c5.large,running,us-east-1,0.085
+i-0e1f2a3b4c5d6e7f8,t3.small,running,eu-west-1,0.0232
+i-0f2a3b4c5d6e7f8a9,r5.xlarge,"stopped, pending restart",eu-central-1,0.252
+i-0a3b4c5d6e7f8a9b0,m5.large,terminated,us-east-1,0.096
+i-0b4c5d6e7f8a9b0c1,c5.xlarge,running,ap-southeast-1,0.17
+i-0c5d6e7f8a9b0c1d2,t3.large,running,eu-west-1,0.0928
